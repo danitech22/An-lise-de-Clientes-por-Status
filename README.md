@@ -1,40 +1,33 @@
-📊 Sistema de Análise de Clientes com Métricas em Python
+# 👥 Sistema de Análise de Clientes
 
-Este projeto consiste em um sistema simples e eficiente para análise de clientes, onde os dados são processados e agrupados com base no status de atividade (ativo/inativo).
-Ao final, o programa gera um relatório completo, incluindo quantidade de clientes, total de compras e média de compras por cliente.
+Este projeto é um programa em Python que realiza a **análise de clientes** com base em dados de atividade e histórico de compras.
 
-O sistema foi desenvolvido para execução no terminal, utilizando conceitos fundamentais da linguagem Python, com foco em lógica, clareza e organização dos dados.
+O sistema agrupa os clientes de acordo com seu **status (ativo ou inativo)** e gera métricas consolidadas, exibindo os resultados diretamente no terminal.
 
-🎯 Objetivo do Projeto
+---
 
-O objetivo deste projeto é praticar e consolidar conhecimentos em:
+## ⚙️ Funcionalidades
 
-Lógica de programação
+- Agrupa clientes por **status (ativos e inativos)**
+- Calcula o **total de clientes por status**
+- Calcula a **quantidade total de compras por grupo**
+- Calcula a **média de compras por cliente** em cada grupo
+- Exibe um **resumo consolidado** no terminal
 
-Estruturas de repetição (for)
+---
 
-Dicionários em Python
+## 🛠️ Tecnologias Utilizadas
 
-Estruturas condicionais (if)
+- Python 3  
 
-Cálculo de médias e agregações
+O projeto utiliza apenas recursos nativos da linguagem, sem bibliotecas externas.
 
-Organização de dados e geração de relatórios
+---
 
-⚙️ Funcionalidades
+## ▶️ Como Executar o Projeto
 
-Leitura de dados de clientes estruturados
+1. Certifique-se de ter o **Python 3** instalado em sua máquina  
+2. Faça o clone do repositório:
 
-Agrupamento automático por status de atividade
-
-Cálculo orgânico de:
-
-Quantidade total de clientes por grupo
-
-Total de compras realizadas
-
-Média de compras por cliente
-
-Geração de um resumo analítico
-
-Exibição clara e organizada do relatório no terminal
+```bash
+git clone <URL_DO_REPOSITORIO>
